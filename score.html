@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score.css">
+    <title>Scorecard</title>
+</head>
+<body>
+    <div class="scorecard">
+        <h1>Match Scorecard</h1>
+        <div class="team" id="teamA">
+            <h2>Team A</h2>
+            <div class="score">Score: <span id="scoreA">0</span></div>
+        </div>
+        <div class="team" id="teamB">
+            <h2>Team B</h2>
+            <div class="score">Score: <span id="scoreB">0</span></div>
+        </div>
+        <div class="controls">
+            <button onclick="updateScore('A')">Add Point to Team A</button>
+            <button onclick="updateScore('B')">Add Point to Team B</button>
+            <br>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

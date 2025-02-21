@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUBAwYCB//EADMQAAEDAwIDBAcJAAAAAAAAAAEAAgMEBRESIRMxQQZRYXEUMlKBobHwFSIzNlORkrLB/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAIhEAAgICAgEFAQAAAAAAAAAAAAECEQMhMdHwE2FxkcES/9oADAMBAAIRAxEAPwD6IiIvRJBERAEREAREQBERAEREAREQBEUO5TNEXADvvy5AayRrZMd7M7E+HmnJxukKqu4QJiifIGStZIQ0/dB6jv3x5ZylVJPFNxNWmm4R3Ja0B/TJd7vDvXujpWxDivxJUOB1TFga4jOwPkMD3BV1xvVodxKSfNS0fiNjjL2jB6lTjG3pFc5fyrk6N8dZVRRwvqmMMTYy6omZ6ud8BmDk8gMYydQ67KfSzsqadk8edDxkZ+vlsudjoYTAa/sxUEEevTEksk8C07g/XipFsqY3sZXU0RxLtK6R+lsDGjdncMbY2Gx8yZSgqtEIZXdMvkQckVRoCIiAIiIAtM1LDNK2V7TrbjBDyM4ORkA7jO+63Igasre0c76ax1csR0vDA0EHlkgf6pFrpIaGhiggaGgNBJ6uONyVC7Wfl+r8m/3atcVsuhjYRfZQNI24DdvirUl6fNbM0m1m0r12YdGyj7VQejjQ2shfxWt5Et3B80t9vP2hcWVFO9tP6S2eE5wC7G+MHf5d62UtnqWXGCtqri6pdCHBrXRBvMY6FXCSnWk70dx47dtVv8MMa1jAxgAa0YAHQLKIqjQEREAREQBDnBwQD0yiIDmJqipuXY6rdO4PqGkh+G4xpeCfgF0FBNHUUUE0TtTHsBBVNUcWxV81U2J0ttqjqma0ZML/AGsdx+ui1w0Ntk1S2q8yUsT93RRTAAe47haJJNe3mjHGUoy3zw+y1dcc3ltuiYH4iMkr9Xqdw+SzQV5rKuthEYEdNIGB4OdRxv8AsqhlVRW1j6Sxg1twmO7w7Xv7Tnctlb2a3/Z1E2JztcrnF8r/AGnnmVGUYxj59k8c5ylz89E5ERUmkIiIAiIgCIiALi73UWGeWkdS8DV6U01GmMtzHvqzsu0XjgQ/pR/xCsxzUHZTnxPIqRCs89rljkbaeEGsxr4bNPPlnbfkrBYYxjM6GtbnuGFlQk7ZZFNKmERFwkEREAREQBERAEREAREQBERAEREB/9k=);
+    background-size: auto;
+}
+
+.scorecard {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.team {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    background-color: #e7f3ff;
+}
+
+.team h2 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
